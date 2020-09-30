@@ -9,10 +9,14 @@ average = 0.0
 numberOfScores = int (input("Please enter the number of scores you want to average: ") )
 
 #Add a loop to make this code repeat until scorecount = numberOfScores
-score = int (input ("Please enter a score: ") )
-total = total + score
-scoreCount = scoreCount + 1
+
+while scoreCount < numberOfScores:
+    score = int (input ("Please enter a score: ") )
+    total = total + score
+    scoreCount = scoreCount + 1
 
 
 average = total / numberOfScores
-print (average) 
+print
+print (average) #print
+
