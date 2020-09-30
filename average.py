@@ -17,6 +17,5 @@ while scoreCount < numberOfScores:
 
 
 average = total / numberOfScores
-print
 print (average) #print
 
